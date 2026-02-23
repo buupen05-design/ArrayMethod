@@ -41,11 +41,11 @@
 // console.log(newarr)
 
 // 7. Filter an array of numbers to return only those greater than 5.
-// let arr = [1,2,3,4,5,6,7,8]
-// let newarr= arr.filter((item)=>{
-//     return (item>5)
-// })
-// console.log(newarr)
+let arr = [1,2,3,4,5,6,7,8]
+let newarr= arr.filter((item)=>{
+    return (item>5)
+})
+console.log(newarr)
 
 // 8. Write a function that filters out empty strings from an array.
 // let arr = ["Ram" ,"", "Rak" ,"ras"]
@@ -96,10 +96,91 @@
 // }
 // console.log(add([2,3,4,5]));
 // 14. Given an array of strings, return an array of the first letter of each string using `map`.
-let words = ["apple", "banana", "cherry"];
+// let words = ["apple", "banana", "cherry"];
 
-let firstLetters = words.map(item => {
-    return (item[0])
-});
+// let newarr = words.map(item => {
+//     return (item[0])
+// });
 
-console.log(firstLetters);
+// console.log(newarr);
+
+// 15. Convert an array of strings to an array of their lengths using `map`.
+// let arr = ["apple","ball"]
+// let newarr = arr.map((item)=>{
+//     console.log(item)
+    // return (item.length)
+// })
+// console.log(newarr)
+
+// 16. Write a function that squares each number in an array using `map`.
+// let arr = [2,3,4,5,6]
+// let newarr = arr.map((item=>{
+//     return(item*2)
+// }))
+// console.log(newarr)
+
+// 17. Use `forEach` to log each element of an array to the console.
+// let arr = [1,2,3,4]
+//arr.forEach(item => {
+//     console.log(item)
+    
+//     // return (item)
+    
+// });
+
+// 18. Write a function that uses `forEach` to calculate the sum of an array of numbers.
+// let arr = [1,2,3,4]
+// let sum = 0
+//arr.forEach(item =>{
+//     console.log(item)
+//     return (sum = sum +item)
+// });
+// console.log(sum)
+
+// 19. Use `forEach` to multiply each number in an array by 2 and log the results.
+// let arr = [1,2,3,4,5,6]
+// arr.forEach((item=>{
+//     // console.log(item)
+//     console.log((item*2))
+// }))
+
+// 20. Use `forEach` to log each string in an array in uppercase.
+// let arr = ["bhpen","ram"]
+// arr.forEach((item=>{
+//     console.log(item.toUpperCase())
+// }))
+// 21. Use `forEach` to add an exclamation mark to each string in an array and log the new strings.
+// let arr = ["bhupen","ram"]
+// arr.forEach((item =>{
+//     console.log("!"+item)
+// }))
+
+// 22. Use `forEach` to log the index and value of each element in an array.
+
+// let arr = [1,2,3,4,5]
+
+// arr.forEach((item=>{
+//     console.log(item)
+// }))
+
+// 23. Use `forEach` to log only the odd numbers from an array.
+// let arr = [1,2,3,4,5]
+// arr.forEach((item=>{
+//     if(item%2!==0){
+//         console.log(item)
+//     }
+// })
+
+// )
+// 24. Write a function that uses `forEach` to log numbers greater than 10 from an array.
+// let arr = [1,3,43,12,4,5,5,67,13]
+// arr.forEach((item=>{
+//     if(item>10){
+//         console.log(item)
+//     }
+// }))
+// 25. Use `forEach` to concatenate all strings in an array into a single string and log it.
+// let arr = ["ring","king","sing"]
+// arr.forEach((item=>{
+//     console.log(item.concat())
+// }))
